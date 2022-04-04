@@ -1,0 +1,363 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter" sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 21fr;
+}
+
+.header-icon {
+  height: 5rem;
+  width: 3rem;
+  padding-left: 3rem;
+  padding-top: 0.8rem;
+}
+.logo-box {
+width: 3rem;
+}
+
+.image-logo {
+  width: 400%;
+}
+
+.search-part {
+  display: grid;
+  grid-template-columns: 14fr 1fr 4fr 1fr;
+}
+
+/* .header-form {
+  width: ;
+} */
+
+.search-bar {
+  width: 55%;
+  height: 4rem;
+  margin: 1.5rem 0 3rem 40rem
+}
+.search-bar::placeholder {
+padding-left: 1rem;
+}
+
+.search-button {
+  height: 4rem;
+  width: 7rem;
+  margin-left: -0.4rem;
+}
+
+.mic-icon {
+  background-color: rgba(228, 226, 226, 0.897);
+  color: black;
+  font-size: 2.5rem;
+  margin: 1.5rem 3rem 3rem -1.5rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+  width: 4rem;
+}
+ 
+.mic {
+  padding-left: 0.2rem;
+  color: black;
+}
+
+.bell-icon {
+  padding-left: 25rem;
+  height: 4rem;
+  width: 4rem;
+  font-size: 2.5rem;
+  margin: 1.5rem 3rem 3rem 0;
+  padding-top: 0.5rem;
+}
+
+.account-name {
+  margin-top: 1.5rem;
+  height: 4rem;
+  width: 4rem;
+  font-size: 2.5rem;
+  background-color: rgb(34, 61, 34);
+  padding:  0.8rem 0.5rem 0.5rem 1.5rem;
+  border-radius: 50%;
+}
+.link-name {
+  text-decoration: none;
+  color: white;
+}
+
+.bell {
+  color: black;
+}
+
+main {
+  background-color: rgb(224, 224, 224);
+}
+
+.body{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.video-itself {
+  width: 140rem;
+  height: 75rem;
+  padding: 3rem 0rem 1rem 4rem;
+}
+
+.videos-1,
+.videos-2,
+.videos-3,
+.videos-4,
+.videos-5,
+.videos-6,
+.videos-7,
+.videos-8,
+.videos-9,
+.videos-10 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.videos-1 {
+  padding: 5rem 1rem 1rem 2rem;
+}
+
+.side-video-1 {
+  height: 10rem;
+  width: 20rem;
+}
+
+.side-text {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.description-text {
+  font-size: 1.2rem;
+  padding: 1.5rem 1rem 0.5rem 1rem;
+}
+
+.description-text2 {
+  font-size: 1.2rem;
+  padding: 0 1rem 0.5rem 1rem;
+}
+
+.name-video {
+  font-size: 2rem;
+  padding: 1rem 0rem 1rem 0;
+  font-weight: 500;
+  color: black;
+}
+
+.description-main-video {
+  font-size: 1.2rem;
+  padding: 1rem 0rem 5rem 0;
+  color: black;
+}
+
+.likes {
+  margin-left: 10rem;
+  display: grid;
+  grid-template-columns: 14fr 1fr 1.3fr 1.3fr 1fr 1fr 1fr;
+  border-bottom: solid rgb(160, 160, 160) 1px;
+}
+
+.like, .dislike, .share, .cut, .add{
+  align-self: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.subscribe {
+  margin-left: 10rem;
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 12fr 2fr;
+  color: black;
+  margin-bottom: 3rem;
+}
+
+.channel-name {
+  align-self: center;
+  padding: 1.5rem 1rem ;
+  font-size: 2rem;
+  background-color: rgb(28, 28, 85);
+  color:white;
+  margin-right: 3rem;
+  border-radius: 50%;
+}
+
+.subscribers {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.muco {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.sub-name {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.sub-description {
+  font-size: 1.4rem;
+  padding-bottom: 1.5rem;
+}
+
+.show-more{
+  text-decoration: none;
+  color: grey;
+}
+
+.subscribe-b {
+  align-self:flex-start;
+  height: 3.5rem;
+  text-transform: uppercase;
+}
+.button-s {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  background-color: rgb(185, 8, 8);
+  color: white;
+  border: none;
+}
+
+.comment-one {
+  border-top: solid rgb(160, 160, 160) 1px;
+  margin-left: 10rem;
+  font-size: 1.8rem;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  padding: 2rem;
+}
+
+.lower-account-name {
+  margin-left: 10rem;
+}
+
+.write-comment {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+/* .form-comment:focus {
+  outline: none;
+} */
+
+.input-comment{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  background-color: rgba(228, 226, 226, 0.897);
+  width: 100%;
+  height: 4rem;
+}
+.input-comment::placeholder {
+  font-size: 1.8rem;
+}
+
+.add-comment {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+ 
+  
+}
+
+.cancel {
+ margin-left: 118rem;
+  border: none;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  background-color: rgba(228, 226, 226, 0.897);
+  text-transform: uppercase;
+  color: rgba(41, 41, 41, 0.835);
+}
+
+.comment-add {
+  border: none;
+  background-color: rgb(204, 200, 200);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  color: rgba(41, 41, 41, 0.452);
+}
+
+.commit-boxes {
+  /* display: inline-block; */
+  padding-top: 2.5rem;
+  padding-left: 1rem;
+  color: black;
+}
+
+.basic-comment {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.date-comment {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.657);
+  padding-left: 1rem;
+  font-size: 1.3rem;
+}
+.added-comments {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+
+.comment-itself {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}
+
+.dislike-comment {
+  padding-left: 1rem;
+
+}
+.reply-com {
+  padding-left: 1rem;
+  color: rgba(0, 0, 0, 0.596);
+}
+
+.number-like {
+  color: rgba(0, 0, 0, 0.596);
+}
+.like-comment {
+
+}
+
+.like-comment-box {
+  font-size: 1.2rem;
+  line-height: 3;
+}
+.down-reply {
+  display: inline-block;
+  font-size: 1.3rem;
+  color:blue;
+  padding-right: 1rem;
+}
+
+.view-replies {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color:blue;
+}
